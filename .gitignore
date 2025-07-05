@@ -1,6 +1,5 @@
 # Archivos de configuración sensibles
 config/database.php
-config/config.php
 
 # Logs
 *.log
