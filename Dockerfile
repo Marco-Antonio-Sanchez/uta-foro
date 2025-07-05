@@ -1,5 +1,8 @@
 FROM php:8.2-apache
 
+# Instala las extensiones de PHP necesarias
+RUN docker-php-ext-install mysqli pdo pdo_mysql
+
 # Habilita mod_rewrite para .htaccess
 RUN a2enmod rewrite
 
